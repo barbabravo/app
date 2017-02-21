@@ -1,11 +1,12 @@
 {
-  "name": "qyer",
+  "name": "ht",
   "version": "1.0.3",
   "description": "",
   "main": "main.js",
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.15.3",
     "babel-core": "^6.9.1",
     "babel-loader": "^6.2.4",
     "babel-plugin-transform-runtime": "^6.9.0",
@@ -23,6 +24,7 @@
     "vue-loader": "^10.2.0",
     "vue-style-loader": "^2.0.0",
     "vue-template-compiler": "^2.1.10",
+    "vuex": "^2.1.2",
     "vug-templates": "git+https://github.com/bluers/vug-templates.git"
   },
   "devDependencies": {
@@ -31,6 +33,7 @@
     "open-browser-webpack-plugin": "0.0.2",
     "require": "^2.4.20",
     "url-loader": "^0.5.7",
+    "vue-router": "^2.2.0",
     "webpack": "^1.13.3",
     "webpack-dev-server": "^1.16.2"
   }
